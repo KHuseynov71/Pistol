@@ -173,10 +173,11 @@ namespace Pistol_Task.Metods
                 Console.Clear();
             } while (Chouse2 == "YES");
         }
-
-        private static void ChangeTrue(ref bool input)
+        public static void ChangeTrue(ref bool inpute)
         {
-            throw new NotImplementedException();
-        }
+            Console.WriteLine("Please enter correctly");
+            inpute = true;
+        }       // Daxil etdiyimiz inpute deyisenine True menimsedir eger daxil edilen melumat falesdirsa
+
     }
 }

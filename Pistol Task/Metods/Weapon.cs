@@ -150,10 +150,5 @@ namespace Pistol_Task.Metods
             Console.WriteLine("Bullet capacity of the comb         " + BulletCapacity + "\nThe number of bullets in the comb   " + BulletCount + "\nComb discharge second               " + Discharge + " sec." + "\nShooting mode                       " + ShootingMode);
         }
 
-        public static void ChangeTrue(ref bool inpute)
-        {
-            Console.WriteLine("Please enter correctly");
-            inpute = true;
-        }       // Daxil etdiyimiz inpute deyisenine True menimsedir eger daxil edilen melumat falesdirsa
     }
 }
