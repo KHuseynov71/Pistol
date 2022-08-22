@@ -77,25 +77,48 @@ namespace Pistol_Task.Metods
         }
         public void Shoting()
         {
-            if (BulletCount > 1)
+            if (ShootingMode == "Single")
             {
-                BulletCount = BulletCount - 1;
-                Console.WriteLine("1 shot fired");
+                if (BulletCount > 1)
+                {
+                    BulletCount -= 1;
+                    Console.WriteLine("1 shot fired");
+                }
+                else if (BulletCount <= 1)
+                {
+                    BulletCount -= 1;
+                    Console.WriteLine("1 shot fired");
+                    Reload();
+                }
+
             }
-            else if (BulletCount <= 1)
+            else if (ShootingMode == "Avto")
             {
-                BulletCount = BulletCount - 1;
-                Console.WriteLine("1 shot fired");
-                Reload();
+                BulletCount = 0;
+                Console.WriteLine("All bullet fire");
+                Console.WriteLine("Please reload gun");
             }
 
         }
         public void Fire()
         {
-            if (BulletCapacity > 0)
+            if (ShootingMode == "Avto")
             {
-                float time = BulletCapacity / Discharge * BulletCount; ;
-                Console.WriteLine(time + "seconds of comb discharged");
+                if (BulletCapacity > 0)
+                {
+                    float time = BulletCapacity / Discharge * BulletCount;
+                    Console.WriteLine("Seconds of comb discharged: " + time);
+                    BulletCount = 0;
+                    Console.WriteLine("Please reload gun");
+                }
+            }
+            else
+            {
+                float time = (BulletCapacity / Discharge * BulletCount) + BulletCount / 2;
+                Console.WriteLine("Seconds of comb discharged: " + time);
+                BulletCount = 0;
+                Console.WriteLine("Please reload gun");
+
             }
         }
         public int GetRemainBulletCount()
