@@ -1,0 +1,14 @@
+C:\Users\LENOVO\Desktop\Yazdigim Tasklar\Pistol task\Pistol Task\obj\Debug\netcoreapp3.1\Pistol Task.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\Yazdigim Tasklar\Pistol task\Pistol Task\obj\Debug\netcoreapp3.1\Pistol Task.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Desktop\Yazdigim Tasklar\Pistol task\Pistol Task\obj\Debug\netcoreapp3.1\Pistol Task.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Desktop\Yazdigim Tasklar\Pistol task\Pistol Task\obj\Debug\netcoreapp3.1\Pistol Task.AssemblyInfo.cs
+C:\Users\LENOVO\Desktop\Yazdigim Tasklar\Pistol task\Pistol Task\obj\Debug\netcoreapp3.1\Pistol Task.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\Yazdigim Tasklar\Pistol task\Pistol Task\bin\Debug\netcoreapp3.1\Pistol Task.exe
+C:\Users\LENOVO\Desktop\Yazdigim Tasklar\Pistol task\Pistol Task\bin\Debug\netcoreapp3.1\Pistol Task.deps.json
+C:\Users\LENOVO\Desktop\Yazdigim Tasklar\Pistol task\Pistol Task\bin\Debug\netcoreapp3.1\Pistol Task.runtimeconfig.json
+C:\Users\LENOVO\Desktop\Yazdigim Tasklar\Pistol task\Pistol Task\bin\Debug\netcoreapp3.1\Pistol Task.runtimeconfig.dev.json
+C:\Users\LENOVO\Desktop\Yazdigim Tasklar\Pistol task\Pistol Task\bin\Debug\netcoreapp3.1\Pistol Task.dll
+C:\Users\LENOVO\Desktop\Yazdigim Tasklar\Pistol task\Pistol Task\bin\Debug\netcoreapp3.1\Pistol Task.pdb
+C:\Users\LENOVO\Desktop\Yazdigim Tasklar\Pistol task\Pistol Task\obj\Debug\netcoreapp3.1\Pistol Task.dll
+C:\Users\LENOVO\Desktop\Yazdigim Tasklar\Pistol task\Pistol Task\obj\Debug\netcoreapp3.1\Pistol Task.pdb
+C:\Users\LENOVO\Desktop\Yazdigim Tasklar\Pistol task\Pistol Task\obj\Debug\netcoreapp3.1\Pistol Task.genruntimeconfig.cache
